@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-size: cover;
+    background-image: url("/images/photo_2023-12-23_20-41-49.jpg");
+}
+
+.head{
+    margin: 10px 70px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.logo{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.zoezdi{
+    padding: 10px 15px;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav>a{
+    color: white;
+    text-decoration: none;
+}
+
+.homecontent{
+    margin: 50px 70px;
+}
+
+.name{
+    padding-top: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.fast{
+    margin-top: 20px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    padding: 15px 20px;
+    background-color: #3D324F;
+    color: white;
+}
+
+.box{
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 20px;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    background-color: rgba(255, 255, 255, 0.479);
+}
+
+.best{
+    color: white;
+    margin: 10px 70px;
+}
+
+.infbox{
+    padding-left: 20px;
+}
+
+.roomname{
+    color: white;
+}
+
+.cena{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sena{
+    color: white;
+}
+
+.moreinf{
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    background-color: #3D324F;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.homeboxes{
+    margin: 20px 70px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
